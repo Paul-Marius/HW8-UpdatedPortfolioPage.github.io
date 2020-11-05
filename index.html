@@ -1,0 +1,165 @@
+<!--Wesite declaretion (information) to the browser about what document type to expect-->
+<!DOCTYPE html>
+
+<!--HTML tag + selected language-->
+<html lang="en">
+
+<!--Website metadata (data about data) -->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--CSS link -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!--Website title "Responsive Portfolio" -->
+  <title>Responsive Portfolio</title>
+
+</head>
+
+<!--Website structure -->
+
+<body>
+
+  <!--Logo P.M.B.-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">P.M.B.<span class="sr-only">(current)</span></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Buttons list -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <!--Button 1 "Home" -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!--Button 2 "Portfolio" -->
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+
+        <!--Button 3 "Contact" -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+        <!--Button 4 "P.M.B. Links" ->Dropdown list<- -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">P.M.B. Links</a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.linkedin.com/in/paul-marius-besliu/">Linkedin</a>
+            <a class="dropdown-item" href="https://github.com/Paul-Marius">GitHub</a>
+            <a class="dropdown-item" href="https://stackoverflow.com/users/14060461/paul?tab=profile">StackOverflow</a>
+          </div>
+        </li>
+
+        <!--Button 5 Up "Career" -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://sites.google.com/2u.com/careerservices-webdev/home?authuser=0">Up Career</a>
+        </li>
+      </ul>
+
+      <!--Button 6 ->Search Bar + Button<- -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+
+          <!--h1 tag (heading) for "P.M.B. a.k.a. => Paul Marius Besliu" -->
+          <h1 class="block-header">P.M.B. a.k.a. => Paul Marius Besliu</h1>
+          <hr />
+
+          <!-- <p> tag for shorth description -->
+          <div class="description">
+            <p> My name is Paul Besliu and I am originally from Romania.
+              I moved to the US in 2017 and have lived in PNW area since then.
+            </p>
+            <br>
+            <p> I graduated with an Engineering degree from one of the top Universities in Romania.
+              After working as an Engineer for a while, I reavized I hava a passion for computers.
+              A few years ago I started studying HTML on my own. In the meantime life happend and I didn't make much
+              progress.
+              Earlier this year I decided to get back into programming and here I am now enrolled in the UW Bootcamp.
+            </p>
+
+            <p>My contact information is listed below:
+              <br>
+              -> email: besliu_marius@yahoo.com
+              <br>
+              -> phone: 425 496 3480
+            </p>
+
+            <p>Below is the link to my resume which will be updated with my latest work experiance shortly:
+              <br>
+              <a href="https://drive.google.com/file/d/1fxpe_8D_z80YAbFrMP64EhwwZmLoYLGS/view?usp=sharing">Resume
+                link</a>
+            </p>
+
+            <p>Information on two of my latest projects is shown below:
+              <br>
+              1. Day Planner is an application meant to be used us a daily calendar:
+              <br>
+              <a href="https://paul-marius.github.io/HW5-DayPlanner.github.io/">->Deployed version</a>
+              <br>
+              <a href="https://github.com/Paul-Marius/HW5-DayPlanner.github.io">->GitHub repository</a>
+              <br>
+              2. Weather Dashboard a webpage where you can check to weather forecast:
+              <br>
+              <a href="https://paul-marius.github.io/HW6-WeatherDashboard.github.io/">->Deployed version</a>
+              <br>
+              <a href="https://github.com/Paul-Marius/HW6-WeatherDashboard.github.io">->GitHub repository</a>
+            </p>
+
+            <p> </p>
+          </div>
+
+        </article>
+      </div>
+    </main>
+  </div>
+
+  <!--Footer tag -->
+  <footer class="footer">
+    <div class="footerline"></div>
+
+    <p class="text-muted footertext text-center">
+
+      &copy; Powered bY SpaceRemodelinG
+    </p>
+  </footer>
+
+  <!--Bootstrap Javascript links -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
