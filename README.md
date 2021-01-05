@@ -1,16 +1,16 @@
 # Portfolio Page
 ___
 ## Table of contents
-* [First word](#First_word)
+* [First word](#First-word)
 * [Home](#Home)
 * [Portfolio](#Portfolio)
 * [Contact](#Contact)
 * [Links](#Links)
-* [Up Career](#Up_Career)
+* [Up Career](#Up-Career)
 * [License](#License)
-* [Portfolio Links](#Portfolio_Links)
-- [Images folder](#Images_folder)
-- [Style file](#Style_file)
+* [Portfolio Links](#Portfolio-Links)
+- [Images folder](#Images-folder)
+- [Style file](#Style-file)
 ___
 ### First word
 
